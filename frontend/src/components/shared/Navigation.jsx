@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 import {
     Container,
     Navbar,
@@ -9,21 +9,16 @@ import {
     NavLink
 } from 'reactstrap';
 
+import config from '../../config';
+
 import './styles/Navbar.css'
 
 const Navigation = () => {
-    const paths = [
-      {name: 'Home', path: '/'},
-      {name: 'Events', path: '/events'},
-      {name: 'Speak', path: '/speak'},
-      {name: 'Host', path: '/host'},
-      {name: 'Past Events', path: '/past-events'},
-      {name: 'Code of Conduct', path: '/code-of-conduct'},
-    ]
-
     const navItem = ({name, path}) => {
       return (
-        <li><a href={path}>{name}</a></li>
+        <li>
+          <Link to={path}>{name}</Link>
+        </li>
       )
     };
 
@@ -31,7 +26,7 @@ const Navigation = () => {
       <Container>
         <nav className="main-nav">
           <ul>
-            {paths.map(navItem)}
+            {config.pages.map(navItem)}
           </ul>        
         </nav>
       </Container>
