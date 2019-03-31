@@ -1,0 +1,32 @@
+[
+    {
+        "title": "T.V.O.D.",
+        "speakers": ["Brandon Yu"],
+        "video_url": "https://www.youtube.com/watch?v=JV3cFP_CQEo",
+        "type": "Lightning Talk" 
+    },
+    {
+        "title": "Redux Dynamic Modules",
+        "speaker": ["Navneet Gupta", "Alex B"],
+        "video_url": "https://www.youtube.com/watch?v=SktRbSZ-4Tk",
+        "type": "Technical Talk" 
+    },
+    {
+        "title": "Codemods",
+        "speaker": ["Jenna Badanowski"],
+        "video_url": "https://www.youtube.com/watch?v=X2SW9mErJ-E",
+        "type": "Lightning Talk" 
+    },
+    {
+        "title": "Modularization",
+        "speaker": ["Aravind Parasurama"],
+        "video_url": "https://www.youtube.com/watch?v=UEiZmzMLI90",
+        "type": "Lightning Talk" 
+    },
+    {
+        "title": "Decoupled React Applications",
+        "speaker": ["Tyler Walker"],
+        "video_url": "https://www.youtube.com/watch?v=ncLCUJ96438",
+        "type": "Technical Talk" 
+    }
+]

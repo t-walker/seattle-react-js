@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 140%;
+}
+
+.jumbotron {
+    background-color: black;
+}
+
+.navigation li {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bolder;
+    color: green;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}

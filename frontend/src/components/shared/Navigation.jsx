@@ -1,17 +1,14 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+
+import {
+  Link
+} from 'react-router-dom';
+
 import {
     Container,
-    Navbar,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink
 } from 'reactstrap';
 
 import config from '../../config';
-
-import './styles/Navbar.css'
 
 const Navigation = () => {
     const navItem = ({name, path}) => {
@@ -24,7 +21,7 @@ const Navigation = () => {
 
     return (
       <Container>
-        <nav className="main-nav">
+        <nav className="navigation">
           <ul>
             {config.pages.map(navItem)}
           </ul>        

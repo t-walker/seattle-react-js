@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 
+import {
+  Container,
+} from 'reactstrap';
+
 import Navigation from './components/shared/Navigation';
 import Header from './components/shared/Header';
 
@@ -12,11 +16,13 @@ class App extends Component {
       <div className="App">
         <Header />
         <Navigation />
-        <Switch>
-          {config.pages.map((page) => {
-            return <Route exact path={page.path} component={page.component} />
-          })}
-        </Switch>
+        <Container className="content">
+          <Switch>
+            {config.pages.map((page) => {
+              return <Route exact path={page.path} component={page.component} />
+            })}
+          </Switch>
+        </Container>
       </div>
     )
   }
