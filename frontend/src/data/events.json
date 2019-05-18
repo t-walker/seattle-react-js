@@ -1,0 +1,72 @@
+[
+    {
+        "host": "Textio",
+        "date": "2019-03-27",
+        "talks": []
+    },
+    {
+        "host": "SAP Concur",
+        "date": "2019-01-10",
+        "talks": [
+            {
+                "title": "Codemods",
+                "speakers": ["Jenna Badanowski"],
+                "video_url": "https://www.youtube.com/watch?v=X2SW9mErJ-E",
+                "type": "Lightning Talk" 
+            },
+            {
+                "title": "Modularization",
+                "speakers": ["Aravind Parasurama"],
+                "video_url": "https://www.youtube.com/watch?v=UEiZmzMLI90",
+                "type": "Lightning Talk" 
+            },
+            {
+                "title": "Decoupled React Applications",
+                "speakers": ["Tyler Walker"],
+                "video_url": "https://www.youtube.com/watch?v=ncLCUJ96438",
+                "type": "Technical Talk" 
+            }
+        ]
+    },
+    {
+        "host": "Microsoft Reactor",
+        "date": "2018-12-5",
+        "talks": [
+            {
+                "title": "Will React Hooks replace Redux?",
+                "speakers": ["Trivikram Kamat"],
+                "video_url": "https://www.youtube.com/watch?v=8xrkgr9cWDs",
+                "type": "Technical Talk" 
+            },
+            {
+                "title": "(JS * 4-days) / X = Base Inventory System",
+                "speakers": ["Benjamin West", "Daniel Frey", "Tom North", "Wyatt Pefley"],
+                "type": "Technical Talk" 
+            },
+            {
+                "title": "Building CampusLink using React Native",
+                "speakers": ["Liam Bolling"],
+                "video_url": "https://www.youtube.com/watch?v=8xrkgr9cWDs",
+                "type": "Technical Talk" 
+            }
+        ]
+    },
+    {
+        "host": "Microsoft Reactor",
+        "date": "2018-10-25",
+        "talks": [
+            {
+                "title": "T.V.O.D.",
+                "speakers": ["Brandon Yu"],
+                "video_url": "https://www.youtube.com/watch?v=JV3cFP_CQEo",
+                "type": "Lightning Talk" 
+            },
+            {
+                "title": "Redux Dynamic Modules",
+                "speakers": ["Navneet Gupta", "Alex B"],
+                "video_url": "https://www.youtube.com/watch?v=SktRbSZ-4Tk",
+                "type": "Technical Talk" 
+            }
+        ]
+    }
+]
